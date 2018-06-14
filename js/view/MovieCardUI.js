@@ -1,17 +1,35 @@
+MovieObj = {
+    'title': 'hej',
+    'year': 2000,
+    'genre': 'scify'
+}
+
 class MovieCardUI{
     constructor(MovieObj){
-        this.MovieObj = MovieObj;
+        this.title = MovieObj.title;
+        this.year = MovieObj.year;
+        this.genre = MovieObj.genre;
+
+        if (MovieObj.title === undefined) {
+            console.log("Movie Objekt har ingen title")
+        } else {
+            console.log("Movie Object har en titel!! :D")
+        }
     }
 
-    static get template(){
-        return this.template;
+    static testMovieCardConstructor(MovieObj){
+        return new MovieCardUI(MovieObj)
     }
 
-    static set template(value){
-        this.template = value;
-    }
+    // static get template(){
+    //     return this.template;
+    // }
 
-    static setupUserInterface(){
+    // static set template(value){
+    //     this.template = value;
+    // }
+
+    static createMovieCardUI(){
         
         // Opret testdata.
         Movie.createTestData();
@@ -57,5 +75,9 @@ class MovieCardUI{
 
 
         // 
+    }
+
+    static addCard(){
+        
     }
 }
