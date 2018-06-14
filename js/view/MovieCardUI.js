@@ -46,7 +46,7 @@ class MovieCardUI{
             
 
             // let card = '<article class="test">' + Movie.instances[key].title + '</article>';
-            let card = document.createElement('article').classList.add('col s4')
+            let card = document.createElement('article').classList.add('col', 's4')
             console.log(card)
             console.log('test')
 
