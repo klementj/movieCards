@@ -12,22 +12,21 @@
 <body>
     <div class="container">
         <h1>UI example JS class setup: Movie cards</h1>
+        
         <!-- Det element der skal sættes film ind i. Har fået et ID for at vi lettere kan refere til det i JavaScripten -->
-        <section class="row">
+        <section id="movieSection" class="row">
 
-            <article id="movieSection"></article>
             <!-- Eksempel på hvordan hver movieCard skal se ud -->
-            <template id="movieSection">
-                <article class="col s4">
-                    <div class="card">
-                        <div class="card-content">
-                            <span class="card-title">Test</span>
-                            <p class="card-year">year</p>
-                            <p class="card-genre">genre</p>
-                        </div>
+            <!-- <article class="col s4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Test</span>
+                        <p class="card-year">year</p>
+                        <p class="card-genre">genre</p>
                     </div>
-                </article>
-            </template>
+                </div>
+            </article> -->
+
         </section>
 
     </div>
@@ -37,7 +36,7 @@
     <script src="js/view/MovieCardUI.js"></script>
 
     <script>
-        window.addEventListener('load', MovieCardUI.setupUserInterface)
+        // window.addEventListener('load', MovieCardUI.setupUserInterface)
     </script>
 
     <!-- Compiled and minified JavaScript -->
