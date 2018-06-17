@@ -5,7 +5,7 @@
         "director" : "Jørgen Leth",
         "year" : "1977",
         "genre" : "Documentary",
-        "picture" : "a_sunday_in_hell.bmp"
+        "img" : "a_sunday_in_hell.bmp"
     },
     "movie2": {
         "title" : "Reptilicus",
@@ -13,7 +13,7 @@
         "director" : "Poul Bang",
         "year" : "1961",
         "genre" : "Sci-Fi",
-        "picture" : "reptilicus.bmp"
+        "img" : "reptilicus.bmp"
     },
     "movie3": {
         "title" : "The Live",
@@ -21,7 +21,7 @@
         "director" : "John Carpenter",
         "year" : "1988",
         "genre" : "Sci-Fi",
-        "picture" : "they_live.bmp"
+        "img" : "they_live.bmp"
     },
     "movie4": {
         "title" : "Pi",
@@ -29,7 +29,7 @@
         "director" : "Darren Aronofsky",
         "year" : "1998",
         "genre" : "Thriller",
-        "picture" : "pi.bmp"
+        "img" : "pi.bmp"
     },
     "movie5": {
         "title" : "Groundhog Day",
@@ -37,7 +37,7 @@
         "director" : "Harold Ramis",
         "year" : "1993",
         "genre" : "Comedy",
-        "picture" : "groundhog_day.bmp"
+        "img" : "groundhog_day.bmp"
     },
     "movie6": {
         "title" : "Trading Places",
@@ -45,7 +45,7 @@
         "director" : "John Landis",
         "year" : "1983",
         "genre" : "Comedy",
-        "picture" : "trading_places.bmp"
+        "img" : "trading_places.bmp"
     },
     "movie7": {
         "title" : "Brazil",
@@ -53,6 +53,6 @@
         "director" : "Terry Gilliam",
         "year" : "1085",
         "genre" : "Dystopian",
-        "picture" : "brazil.bmp"
+        "img" : "brazil.bmp"
     }
 }
