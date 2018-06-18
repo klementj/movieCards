@@ -1,3 +1,19 @@
 header{
     border-bottom: 1px solid rgba(0,0,0,0.14);
 }
+
+footer{
+    border-top: 1px solid rgba(0,0,0,0.14);
+}
+
+.card.medium{
+    max-height: 440px;
+}
+
+.card .card-content p.card-genre{
+    margin-bottom: .7em
+}
+
+#favoriteSection{
+    padding: 1.5em 0;
+}
