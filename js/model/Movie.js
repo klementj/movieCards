@@ -17,7 +17,6 @@ class Movie {
     // Load all movies from localStorage. If no data exists createTestData() is called
     static loadAll(){
         let i = 0, 
-            key='', 
             keys=[], 
             moviesString='', 
             movies={};
@@ -81,7 +80,7 @@ class Movie {
             "year" : "1988",
             "genre" : "Sci-Fi",
             "img" : "they_live.bmp",
-            "favorite" : false
+            "favorite" : true
         };
         Movie.instances['movie4'] = {
             "title" : "Pi",
