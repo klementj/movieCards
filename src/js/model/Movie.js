@@ -1,4 +1,4 @@
-class Movie {
+export class Movie {
     constructor(slots){
         this.title = slots.title;
         this.description = slots.description;

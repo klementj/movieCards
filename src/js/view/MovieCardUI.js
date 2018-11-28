@@ -1,8 +1,8 @@
-
+import { Movie } from '../model/Movie'
 // Load from localStorage. If empty createTestData() is run creating Movie.instances and saving to localStorage['movieDB'];
 // Movie.loadAll();
 
-class MovieCard {
+export class MovieCard {
     
     constructor(slots, key, state){
         this.title = slots.title;
@@ -14,7 +14,6 @@ class MovieCard {
         this.favorite = slots.favorite;
         
         this.key = key;
-
         this.state = state;
     }
     
@@ -22,7 +21,7 @@ class MovieCard {
         return  `<article class="col s12 m6 l4 xl3">
                     <div class="card medium hoverable">
                         <div class="card-image">
-                            <img src="./img/${this.img}">
+                            <img src="./src/img/${this.img}">
                         </div>
                     <div class="card-content black white-text">
                         <span class="card-title activator">${this.title}<i class="material-icons right">&#8593;</i></span>
