@@ -3,52 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Webpack boilerplate</title>
+  <title>Personal Movie DB</title>
 </head>
 <body class="grey darken-3">
-  <header class="grey darken-3 row">
+  <header class="grey darken-3">
     <div class="container">
-      <div class="col s12">
-        <h1 class="white-text header">Personal Movie DB</h1>
+      <div class="row valign-wrapper">
+        <div class="col s12 l8 xl9">
+          <h1 class="white-text header">Personal Movie DB</h1>
+        </div>
+        <div class="input-field col s12 l4 xl3">
+          <label class="active" for="search_string">Search for a movie</label>
+          <input value="" id="search_string" type="text" class="white-text">
+          <!-- <a class="waves-effect waves-light btn-small">Search</a> -->
+        </div>
       </div>
     </div>
   </header>
-  <div class="container">
+
+  <section class="container">  
     <div class="row">
-      <div class="col s12">
-        <h2 class="white-text header">Favorite Movies</h2>
-      </div>
     </div>
+  </section>
+
+  <div class="container">
   </div>
   <div class="grey darken-4">
     <div class="container">
-      <section id="favoriteSection" class="row grey-darken-4">
-        <p id="favoritePlaceholderText" class="center-align white-text" style="padding-top: 3em; padding-bottom: 2.5em;">You haven't added any movies yet :'(</p>
+      <div class="row">
+        <div class="col s12">
+          <h2 class="white-text header ">Favorite Movies</h2>
+        </div>
+      </div>
+      <section id="favoriteSection" class="row">
       </section>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <h2 class="white-text">All Movies</h2>
-      </div>
-    </div>
-    <!-- Det element der skal sættes film ind i. Har fået et ID for at vi lettere kan refere til det i JavaScripten -->
-    <section id="movieSection" class="row">
-      
-      <!-- Eksempel på hvordan hver movieCard skal se ud -->
-      <!-- <article class="col s6 m4">
-        <div class="card">
-          <div class="card-content">
-            <span class="card-title">Test</span>
-            <p class="card-year">year</p>
-            <p class="card-genre">genre</p>
-          </div>
-        </div>
-      </article> -->
-      
-    </section>
-    
   </div>
   
   <footer class="grey darken-3 row">
