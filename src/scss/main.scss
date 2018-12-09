@@ -1,3 +1,52 @@
+.movie{
+  margin: 0 0 2rem 0;
+  // max-height: 200px;
+}
 
+@import '../../node_modules/materialize-css/sass/materialize.scss';
 
-@import '../../node_modules/materialize-css/sass/materialize.scss'
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#favBtn{
+  display:block;
+  margin-top: 10px;
+}
+
+.card.large .card-image{
+  max-height: 70%;
+}
+
+header .input-field{
+  margin-bottom: 0;
+}
+
+header .row {
+  margin-bottom: 0;
+}
+
+// .input-field.col.xl3{
+//   display: flex;
+//   align-items: center;
+
+//   & > label {
+//     top: 21px;
+//   }
+
+//   input{
+//     width: auto;
+//     margin-right: 10px;
+//   }
+// }
+
+// header .row{
+//   display: flex;
+//   justify-content: space-between
+// }
